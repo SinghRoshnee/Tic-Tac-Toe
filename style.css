@@ -88,6 +88,7 @@ body {
     align-items: center;
     flex-direction: column;
     padding: 20px;
+    /* position: relative; */
 }
 
 .msg-content {
@@ -133,9 +134,15 @@ body {
 .blue-text.active {
   font-weight: bold;
   color: rgb(80, 237, 229);
+  text-decoration: underline;
+  text-decoration-color:  white;
+  text-decoration-thickness:3px ;
 }
 
 .green-text.active {
   font-weight: bold;
   color:  lightgreen;
+  text-decoration: underline;
+  text-decoration-color:  white;
+  text-decoration-thickness:3px ;
 }
